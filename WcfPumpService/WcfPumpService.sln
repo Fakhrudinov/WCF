@@ -5,6 +5,11 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfPumpService", "WcfPumpService\WcfPumpService.csproj", "{79C04C3D-188E-42D5-BBDE-E5AE6D248A69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfPumpClient", "WcfPumpClient\WcfPumpClient.csproj", "{44A29E21-0AC5-49D5-9208-9DC2D2A68792}"
+	ProjectSection(ProjectDependencies) = postProject
+		{79C04C3D-188E-42D5-BBDE-E5AE6D248A69} = {79C04C3D-188E-42D5-BBDE-E5AE6D248A69}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{79C04C3D-188E-42D5-BBDE-E5AE6D248A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79C04C3D-188E-42D5-BBDE-E5AE6D248A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79C04C3D-188E-42D5-BBDE-E5AE6D248A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44A29E21-0AC5-49D5-9208-9DC2D2A68792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44A29E21-0AC5-49D5-9208-9DC2D2A68792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44A29E21-0AC5-49D5-9208-9DC2D2A68792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44A29E21-0AC5-49D5-9208-9DC2D2A68792}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

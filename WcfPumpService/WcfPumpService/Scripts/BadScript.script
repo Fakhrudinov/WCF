@@ -1,0 +1,11 @@
+﻿namespace Sample
+{ {xxx //{c:\Users\alex\AppData\Local\Temp\xytgpwjy.0.cs(2,3) : error CS0116: Пространство имен не может напрямую включать в себя такие члены, как поля или методы}
+	public class SampleScript
+	{
+
+		public bool BadEntryPoint()
+		{
+			return false;
+		}
+	}
+}
